@@ -1,0 +1,10 @@
+import random
+random.seed(0)
+random_value=random.random()
+print(random_value)
+random.seed(1)
+random_value=random.random()
+print(random_value)
+random.seed(2)
+random_value=random.random()
+print(random_value)
